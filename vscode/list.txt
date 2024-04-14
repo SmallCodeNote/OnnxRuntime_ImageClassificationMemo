@@ -1,0 +1,2 @@
+py -m pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+py -m pip install onnx
