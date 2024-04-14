@@ -1,0 +1,3 @@
+textBox_Result	2\0000\\t\\19\\t\\15.08\\r\\\\n\\2\0001\\t\\15.39\\t\\19.76\\r\\\\n\\2\0002\\t\\17.83\\t\\14.42\\r\\\\n\\2\0003\\t\\19.42\\t\\16.45\\r\\\\n\\
+textBox_ImageFilesPath	R:\train\2\0000.png\\r\\\\n\\R:\train\2\0001.png\\r\\\\n\\R:\train\2\0002.png\\r\\\\n\\R:\train\2\0003.png
+textBox_OnnxFilePath	R:\model\best_model.onnx
