@@ -1,0 +1,4 @@
+textBox_ImageCount	100
+textBox_Height	224
+textBox_Width	224
+textBox_CreateDirPath	R:\
