@@ -29,16 +29,20 @@
         private void InitializeComponent()
         {
             this.panel_Frame = new System.Windows.Forms.Panel();
+            this.button_CreateD = new System.Windows.Forms.Button();
+            this.button_CreateC = new System.Windows.Forms.Button();
+            this.button_CreateB = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button_CreateA = new System.Windows.Forms.Button();
+            this.textBox_ImageCount = new System.Windows.Forms.TextBox();
             this.textBox_Height = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
             this.textBox_Width = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.textBox_CreateDirPath = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.textBox_ImageCount = new System.Windows.Forms.TextBox();
+            this.button_CreateE = new System.Windows.Forms.Button();
             this.panel_Frame.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -46,6 +50,10 @@
             // panel_Frame
             // 
             this.panel_Frame.AutoScroll = true;
+            this.panel_Frame.Controls.Add(this.button_CreateE);
+            this.panel_Frame.Controls.Add(this.button_CreateD);
+            this.panel_Frame.Controls.Add(this.button_CreateC);
+            this.panel_Frame.Controls.Add(this.button_CreateB);
             this.panel_Frame.Controls.Add(this.pictureBox1);
             this.panel_Frame.Controls.Add(this.button_CreateA);
             this.panel_Frame.Controls.Add(this.textBox_ImageCount);
@@ -62,6 +70,44 @@
             this.panel_Frame.Size = new System.Drawing.Size(591, 885);
             this.panel_Frame.TabIndex = 0;
             // 
+            // button_CreateD
+            // 
+            this.button_CreateD.Location = new System.Drawing.Point(281, 124);
+            this.button_CreateD.Name = "button_CreateD";
+            this.button_CreateD.Size = new System.Drawing.Size(77, 21);
+            this.button_CreateD.TabIndex = 5;
+            this.button_CreateD.Text = "CreateD";
+            this.button_CreateD.UseVisualStyleBackColor = true;
+            this.button_CreateD.Click += new System.EventHandler(this.button_CreateD_Click);
+            // 
+            // button_CreateC
+            // 
+            this.button_CreateC.Location = new System.Drawing.Point(185, 124);
+            this.button_CreateC.Name = "button_CreateC";
+            this.button_CreateC.Size = new System.Drawing.Size(77, 21);
+            this.button_CreateC.TabIndex = 5;
+            this.button_CreateC.Text = "CreateC";
+            this.button_CreateC.UseVisualStyleBackColor = true;
+            this.button_CreateC.Click += new System.EventHandler(this.button_CreateC_Click);
+            // 
+            // button_CreateB
+            // 
+            this.button_CreateB.Location = new System.Drawing.Point(98, 124);
+            this.button_CreateB.Name = "button_CreateB";
+            this.button_CreateB.Size = new System.Drawing.Size(71, 22);
+            this.button_CreateB.TabIndex = 4;
+            this.button_CreateB.Text = "CreateB";
+            this.button_CreateB.UseVisualStyleBackColor = true;
+            this.button_CreateB.Click += new System.EventHandler(this.button_CreateB_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Location = new System.Drawing.Point(5, 153);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(224, 224);
+            this.pictureBox1.TabIndex = 3;
+            this.pictureBox1.TabStop = false;
+            // 
             // button_CreateA
             // 
             this.button_CreateA.Location = new System.Drawing.Point(3, 124);
@@ -72,6 +118,14 @@
             this.button_CreateA.UseVisualStyleBackColor = true;
             this.button_CreateA.Click += new System.EventHandler(this.button_CreateA_Click);
             // 
+            // textBox_ImageCount
+            // 
+            this.textBox_ImageCount.Location = new System.Drawing.Point(187, 68);
+            this.textBox_ImageCount.Name = "textBox_ImageCount";
+            this.textBox_ImageCount.Size = new System.Drawing.Size(76, 19);
+            this.textBox_ImageCount.TabIndex = 2;
+            this.textBox_ImageCount.Text = "100";
+            // 
             // textBox_Height
             // 
             this.textBox_Height.Location = new System.Drawing.Point(85, 68);
@@ -79,6 +133,15 @@
             this.textBox_Height.Size = new System.Drawing.Size(76, 19);
             this.textBox_Height.TabIndex = 2;
             this.textBox_Height.Text = "224";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(187, 53);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(65, 12);
+            this.label4.TabIndex = 1;
+            this.label4.Text = "ImageCount";
             // 
             // textBox_Width
             // 
@@ -122,30 +185,15 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "CreateDirPath";
             // 
-            // pictureBox1
+            // button_CreateE
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(5, 153);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(224, 224);
-            this.pictureBox1.TabIndex = 3;
-            this.pictureBox1.TabStop = false;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(187, 53);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(65, 12);
-            this.label4.TabIndex = 1;
-            this.label4.Text = "ImageCount";
-            // 
-            // textBox_ImageCount
-            // 
-            this.textBox_ImageCount.Location = new System.Drawing.Point(187, 68);
-            this.textBox_ImageCount.Name = "textBox_ImageCount";
-            this.textBox_ImageCount.Size = new System.Drawing.Size(76, 19);
-            this.textBox_ImageCount.TabIndex = 2;
-            this.textBox_ImageCount.Text = "100";
+            this.button_CreateE.Location = new System.Drawing.Point(281, 153);
+            this.button_CreateE.Name = "button_CreateE";
+            this.button_CreateE.Size = new System.Drawing.Size(77, 21);
+            this.button_CreateE.TabIndex = 5;
+            this.button_CreateE.Text = "CreateE";
+            this.button_CreateE.UseVisualStyleBackColor = true;
+            this.button_CreateE.Click += new System.EventHandler(this.button_CreateE_Click);
             // 
             // Form1
             // 
@@ -177,6 +225,10 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.TextBox textBox_ImageCount;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button button_CreateB;
+        private System.Windows.Forms.Button button_CreateC;
+        private System.Windows.Forms.Button button_CreateD;
+        private System.Windows.Forms.Button button_CreateE;
     }
 }
 
